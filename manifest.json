@@ -1,0 +1,16 @@
+{
+  "manifest_version": 2,
+
+  "name": "Note Tab",
+  "description": "An interactive note board",
+  "version": "0.1",
+
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+    
+  "content_security_policy": "script-src 'self'; object-src 'self'",
+  "permissions": [
+      "bookmarks"
+  ]
+}
